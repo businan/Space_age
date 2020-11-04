@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <script src="./js/all.js"></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="main py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center my-5">
+            <h1>YOUR AGE ON OTHER WORLDS</h1>
+            <h3>Want to melt those years away? Travel to an outer planet!</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col my-5">
+            <ul>
+              <h4>TO DO AND NOTICE</h4>
+              <li>
+                Fill in your birthdate below in the space indicated. (Note you
+                must enter the year as a 4-digit number!)
+              </li>
+              <li>Or you can enter your age in seconds)</li>
+              <li>Click on the "Calculate" button.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 text-center my-2">
+            <div class="d-flex justify-content-center">
+              <div class="mx-2">
+                <label for="mount_inp" class="label_text"> Mouth </label>
+                <input id="mount_inp" placeholder="MM" size="5" />
+              </div>
+              <div class="mx-2">
+                <label for="day_inp" class="label_text">Day </label>
+                <input id="day_inp" placeholder="DD" size="5" />
+              </div>
+              <div class="mx-2">
+                <label for="year_inp" class="label_text">Year </label>
+                <input id="year_inp" placeholder="YYYY" size="10" />
+              </div>
+            </div>
+            <button  class="my-5" id="calculate_year_btn">
+              Calculate by Year
+            </button>
+          </div>
+
+          <div class="col-sm-12 col-md-6 text-center">
+              <div class="mx-2">
+            <label for="second_inp" class="label_text"> Second </label>
+            <input id="second_inp" placeholder="Second" size="20" /></div>
+            <div>
+                <button class="my-5" id="calculate_second_btn">Calculate by Second</button>
+            </div>
+            
+          </div>
+        </div>
+
+       
+
+        <div class="row image_row">
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Mercury</h3>
+            <img src="./img/mercury.gif" alt="mercury" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="mercury" class="my-2" />
+            <p class="label_text my-3">Mercurian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Venus</h3>
+            <img src="./img/venus.gif" alt="venus" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="venus" class="my-2" />
+            <p class="label_text my-3">Venusian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Earth</h3>
+            <img src="./img/earth.gif" alt="earth" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="earth" class="my-2" />
+            <p class="label_text my-3">Earth years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Mars</h3>
+            <img src="./img/mars.gif" alt="mars" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="mars" class="my-2" />
+            <p class="label_text my-3">Martian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Jupiter</h3>
+            <img src="./img/jupiter.gif" alt="jupiter" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="jupiter" class="my-2" />
+            <p class="label_text my-3">Jovian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Saturn</h3>
+            <img src="./img/saturn.gif" alt="saturn" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="saturn" class="my-2" />
+            <p class="label_text my-3">Saturnian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Uranus</h3>
+            <img src="./img/uranus.gif" alt="uranus" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="uranus" class="my-2" />
+            <p class="label_text my-3">Uranian years</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3 text-center my-3">
+            <h3>Neptune</h3>
+            <img src="./img/neptune.gif" alt="neptune" />
+            <p class="label_text my-3">Your age is</p>
+            <input type="text" id="neptune" class="my-2" />
+            <p class="label_text my-3">Neptunian years</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/myScript.js"></script>
+    <!-- jquery -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
